@@ -18,7 +18,7 @@ A：逗号运算符的基本概念可以参阅[官方文档](https://learn.micro
 
 Q：`<iostream>` 已经包括了 `<string>` 大部分的功能，为什么在 `fstream` 的使用过程中要引入 `<string>` ？
 
-A：官方文档在这里：[iostream](https://learn.microsoft.com/zh-cn/cpp/standard-library/iostream)和[string](https://learn.microsoft.com/zh-cn/cpp/standard-library/string)。在这里，引入 `<string>` 的目的是使用 `std::getline()` 这个函数。注意和 `std::cin.getline()` 进行区分。
+A：可以参阅官方文档：[iostream](https://learn.microsoft.com/zh-cn/cpp/standard-library/iostream)和[string](https://learn.microsoft.com/zh-cn/cpp/standard-library/string)。在这里，引入 `<string>` 的目的是使用 `std::getline()` 这个函数。注意和 `std::cin.getline()` 进行区分。
 
 Q：一个基本问题的回顾， `'\n'` 和 `"\n"` 有什么区别？
 
