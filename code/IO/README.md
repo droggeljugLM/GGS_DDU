@@ -24,6 +24,6 @@ Q：一个基本问题的回顾， `'\n'` 和 `"\n"` 有什么区别？
 
 A：这个问题在[官方文档](https://learn.microsoft.com/zh-cn/cpp/cpp/string-and-character-literals-cpp)有非常好的解答。
 
-Q：为什么 `ofstream` 是写文件，`ifstream` 是读文件呢，这里**io**的主体是谁呢？
+Q：为什么 `ofstream` 是写文件，`ifstream` 是读文件呢，这里 **io** 的主体是谁呢？
 
 A：在这里，**io** 的主体是程序，或者说是内存。所以 `ofstream` 是程序向文件输出数据，`ifstream` 是程序从文件输入数据。
