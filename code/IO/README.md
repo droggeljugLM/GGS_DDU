@@ -8,7 +8,7 @@
 
 **sstream_usage_int2str.cpp** : 使用 `sstream` 把 `int` 等类型转化为 `string` 类型
 
-**sstream_usage_int2str.cpp** : 使用 `sstream` 把 `string` 类型转化为 `int` 类型
+**sstream_usage_str2int.cpp** : 使用 `sstream` 把 `string` 类型转化为 `int` 类型
 
 ## Q & A
 
