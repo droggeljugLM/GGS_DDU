@@ -24,7 +24,7 @@ namespace how_to_avoid_error
 {
 
 template<typename T>
-class Test
+class vector_t
 {
 public:
 	T& operator[](int index) const;
@@ -33,7 +33,7 @@ private:
 };
 
 template<typename T>
-T& Test<T>::operator[](int i) const
+T& vector_t<T>::operator[](int i) const
 {
 	if (i >= data.size())
 	{
